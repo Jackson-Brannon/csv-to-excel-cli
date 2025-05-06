@@ -1,0 +1,6 @@
+Full Name,🧪 Experiment Status,Date of Test,Temperature (°C),# of Samples,Notes 💬,Is Critical?,Unexpected Null,🔥🔥🔥🔥🔥
+Alice Smith,Completed,2024-11-04,36.6,12,"All normal.",true,,Yes
+Bob Johnson,Pending,2024-11-05,NaN,8,"Possible contamination?!",false,NULL,No
+Charlie,Failed,2024-11-03,98.2,,“Temp unit mismatch”,true,,Maybe
+,Dropped,2024-11-01,37.5,0,,false,,Unknown
+Eve 🎯,Completed,,36.9,15,"🎉 Success!",true,,✔

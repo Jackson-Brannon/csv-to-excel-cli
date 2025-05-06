@@ -1,0 +1,13 @@
+{
+  "name": "csv-to-excel-cli",
+  "version": "1.0.0",
+  "description": "Convert any CSV to Excel via CLI",
+  "main": "index.js",
+  "bin": {
+    "generate-excel": "index.js"
+  },
+  "dependencies": {
+    "csv-parser": "^3.2.0",
+    "exceljs": "^4.4.0"
+  }
+}
