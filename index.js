@@ -5,10 +5,8 @@ const csv = require('csv-parser');
 const ExcelJS = require('exceljs');
 const os = require('os');
 
-// Configurable documents directory
 const DOCUMENTS_DIR = path.join(os.homedir(), 'Documents');
 
-// Common folders to search for CSV files
 const COMMON_FOLDERS = [
   process.cwd(),
   path.join(os.homedir(), 'Downloads'),
@@ -70,7 +68,6 @@ async function convertCSVtoExcel(inputFile, outputFileName) {
   console.log(`✅ Excel file saved to:\n${finalOutputPath}`);
 }
 
-// ---- CLI Entrypoint ----
 const inputArg = process.argv[2];
 const outputArg = process.argv[3];
 
